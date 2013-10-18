@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Padule</title>
+    <link href="assets/application.css?body=1" media="screen" rel="stylesheet" type="text/css" />
+    <script>
+      if (window.padule == null) window.padule = { Models: {}, Collections: {}, Views: {},Routers: {} };
+    </script>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <meta content="authenticity_token" name="csrf-param" />
+    <meta content="H0/4ZYmcxhchNKuC+OPppFlh58ko1NXqIFJqAHWVdcA=" name="csrf-token" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>スケジュール管理</title>
+        <link href="assets/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+        <meta content='スケジュール,調整' name='keywords'>
+        <meta content='スケジュール,調整' name='description'>
+        <meta content='Padule' property='og:title'>
+        <meta content='' property='og_image'>
+        <meta content='' property='og:description'>
+        <meta content='website' property='og:type'>
+        <meta content='' property='og:url'>
+        <meta content='Padule' property='og:site_name'>
+      </head>
+      <body>
+        <div class='navbar navbar-inverse navbar-fixed-top padule-nav'>
+          <div class='container-fluid'>
+            <a href="../" class="navbar-brand"><img alt="Padule" class="logo" src="assets/logo.png" /></a>
+            <ul class='nav navbar-nav pull-right' id='userInfo'>
+              <li class='dropdown'>
+                <a class='pull-right' data-toggle='dropdown' href='#'>
+                  <i class='glyphicon glyphicon-user'></i>
+                </a>
+                <ul class='dropdown-menu'>
+                  <li>
+                    <a href="#">ログアウト</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class='schedule-container container-fluid'>
+          <div class='row-fluid'>
+            <div class='col-2 fill'>
+              <div id='eventSidebar'>
+                <ul class='nav schedule-sidenav' id='eventList'></ul>
+                <div id='addEventButtonContainer'>
+                  <button class='add-event-btn btn btn-default'>
+                    <i class='glyphicon glyphicon-plus'></i>
+                    スケジュール追加
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class='col-10 fill'>
+              <div class='detail-container'>
+                <div class='control-container'></div>
+                <div class='schedule-table-container'>
+                  <h4>
+                    <i class='glyphicon glyphicon-info-sign'></i>
+                    Paduleへようこそ！スケジュールを作成するか、作成したスケジュールを選択してください。
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='modal' id='alertModal'>
+          <div class='modal-dialog'>
+            <div class='modal-content'>
+              <div class='modal-header'>
+                <button aria-hidden='modal-body' class='close' data-dismiss='modal' type='button'>
+                  &times;
+                </button>
+                <i class='glyphicon glyphicon-question-sign'></i>
+                <span class='modal-title'></span>
+              </div>
+              <div class='modal-body'></div>
+              <div class='modal-footer'>
+                <button class='btn btn-primary' id='alertOK' type='button'>
+                  はい
+                </button>
+                <button class='btn btn-default' data-dismiss='modal' type='button'>
+                  いいえ
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+    <script src="assets/application.js?body=1" type="text/javascript"></script>
+  </body>
+</html>

@@ -25,25 +25,44 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
-/**
- * ...and connect the rest of 'Pages' controller's urls.
- */
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
 
 /**
  *
  * REST
  */
-Router::mapResources('users', array('prefix' => 'api'));
+Router::mapResources('users');
+Router::mapResources('events');
+Router::mapResources('schedules');
+Router::mapResources('seekers');
+Router::mapResources('seeker_schedules');
+
+
+
 Router::parseExtensions();
+
+
+
+	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
+/**
+ * ...and connect the rest of 'Pages' controller's urls.
+ */
+	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+
+    Router::connect('/api/seeker_schedules/**', array('controller' => 'locks','action' => 'view','prefix' => 'api'));
+
+    Router::connect('/api/seekers/**', array('controller' => 'seekers','action' => 'view','prefix' => 'api'));
+
+    Router::connect('/api/users/**', array('controller' => 'users','action' => 'view','prefix' => 'api'));
+
+
+
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
  */
-	CakePlugin::routes();
+	//CakePlugin::routes();
 
 /**
  * Load the CakePHP default routes. Only remove this if you do not want to use

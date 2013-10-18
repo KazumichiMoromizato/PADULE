@@ -31,11 +31,13 @@ var $uses = array('User','Company','TmpUser');
  * @return void
  */
 	public function view($id = null) {
-		$this->User->id = $id;
-		if (!$this->User->exists()) {
-			throw new NotFoundException(__('Invalid user'));
-		}
-		$this->set('user', $this->User->read(null, $id));
+        $user = $this->User->read(null,$id);
+        $this->responseText = array(
+            'id' => $user['User']['id'],
+            'name' => $user['User']['username'],
+        );
+
+        $this->render('json');
 	}
 
 /**
@@ -44,9 +46,9 @@ var $uses = array('User','Company','TmpUser');
  * @return void
  */
 	public function add() {
-//		if ($this->request->is('post')) {
-        $this->request->data['User']['username'] = 'padule@padule.me';
-        $this->request->data['User']['password'] = 'padule';
+		if ($this->request->is('post')) {
+        //$this->request->data['User']['username'] = 'padule@padule.me';
+        //$this->request->data['User']['password'] = 'padule';
         $this->request->data['User']['company_id'] = 1;
         $this->request->data['User']['password'] = AuthComponent::password($this->request->data['User']['password']);
 
@@ -58,7 +60,7 @@ var $uses = array('User','Company','TmpUser');
 			} else {
 
 			}
-//		}
+		}
 	}
 
     public function login() {
@@ -81,16 +83,16 @@ var $uses = array('User','Company','TmpUser');
 	   $this->redirect($this->Auth->logout());
 	}
 
-    public function api_view($userId = null) {
-        $companyId = $this->Auth->user('company_id');
-        $company = $this->Company->findById($companyId);
-        $user['id'] = $this->Auth->user('id');
-        $user['username'] = $this->Auth->user('username');
-        $user['company'] = $company['Company']['name'];
+    public function api_view($id = null) {
 
-        $env['success'] = true;
+        $user = $this->User->read(null,$id);
+        $responseText = array(
+            'id' => $user['User']['id'],
+            'name' => $user['User']['username'],
+        );
+        $url = $this->here;
 
-        $this->set(compact('user','env'));
+        $this->set(compact('responseText','url'));
     }
 
     public function api_login() {

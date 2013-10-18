@@ -3456,3 +3456,1494 @@ Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
 #3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2013-05-11 11:49:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:17 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:17 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:17 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:17 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:17 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:17 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:17 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:17 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:17 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:17 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:17 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:17 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:17 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:49:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:49:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:49:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:22 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:22 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:22 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:50:26 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:26 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:26 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:26 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:26 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:26 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:50:26 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:50:26 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:51:39 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:51:39 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:51:39 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:51:42 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:51:42 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:51:42 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:52:23 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:52:23 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:52:23 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:52:46 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:52:47 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:52:47 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:52:55 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:52:55 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:52:55 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:54:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:54:36 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:54:36 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:54:38 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:54:38 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:54:38 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:54:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:54:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:54:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:54:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:54:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:54:41 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-11 11:54:41 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:54:41 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:54:41 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:54:41 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:54:41 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:54:41 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:54:41 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:54:41 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:54:41 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:54:41 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-11 11:54:41 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-05-11 11:54:41 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-30 13:47:53 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_index.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-11 16:11:14 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_index.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-11 16:12:03 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_index.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-11 18:05:23 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_index.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-11 18:20:09 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-11 18:28:12 Error: [MissingActionException] Action SchedulesController::api_index() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-12 17:28:08 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-25 15:03:19 Error: [MissingActionException] Action SchedulesController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-25 15:09:01 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:09:06 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:09:19 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:10:29 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:10:40 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:12:21 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:12:24 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:14:35 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:14:43 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:14:54 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:14:58 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:15:14 Error: [MissingControllerException] Controller class LockdController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:15:20 Error: [MissingControllerException] Controller class LockdController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:15:27 Error: [MissingActionException] Action LocksController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LocksController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-25 15:15:36 Error: [MissingActionException] Action LocksController::index1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LocksController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-25 15:16:31 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Pages/a.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName('a')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render('a', NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/PagesController.php(75): Controller->render('a')
+#3 [internal function]: PagesController->display('a')
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-07-25 15:18:48 Error: [MissingActionException] Action LocksController::api_index() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LocksController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-25 15:19:01 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:19:08 Error: [MissingActionException] Action LocksController::api_index() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LocksController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-25 15:23:05 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Locks/api_view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LocksController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-07-25 15:39:16 Error: [MissingControllerException] Controller class SeekersController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-25 15:39:48 Error: [MissingActionException] Action SeekersController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SeekersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-07-25 15:43:20 Error: Fatal Error (1): Call to a member function read() on a non-object in [/Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/UsersController.php, line 86]
+2013-07-25 15:43:20 Error: [FatalErrorException] Call to a member function read() on a non-object
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/k.moromi...', 86)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/k.moromi...', 86, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/k.moromi...', 86, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-25 15:43:38 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Users/api_view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 13:19:12 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:19:38 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:19:40 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:19:43 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:20:03 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:20:59 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 13:21:03 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_edit.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 13:21:11 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 13:22:31 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:28:17 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:28:19 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:28:20 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:28:28 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:29:19 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:29:22 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:33:28 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:33:30 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 13:34:44 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 13:34:54 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 13:45:32 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 13:45:36 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 17:02:15 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:04:37 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/api_view.ctp, line 3]
+2013-08-04 17:04:37 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/k.moromi...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/k.moromi...', 3, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/k.moromi...', 3, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-04 17:14:36 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:14:42 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:14:49 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:16:36 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:19:30 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:19:32 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:19:34 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:21:11 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:21:13 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:21:42 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:21:44 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:22:47 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:22:49 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:23:07 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:23:17 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:26:34 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:26:44 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:26:47 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:32:27 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:32:30 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:32:36 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:32:37 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:32:38 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:32:38 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:32:42 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:34:06 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:36:24 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:36:29 Error: [MissingActionException] Action EventsController::view() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:36:48 Error: [MissingActionException] Action EventsController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:37:00 Error: [MissingActionException] Action EventsController::view() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:37:07 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:37:33 Error: [MissingControllerException] Controller class Api/eventsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-04 17:37:35 Error: [MissingControllerException] Controller class Api/eventsController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-04 17:39:10 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:39:14 Error: [MissingActionException] Action EventsController::view() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:40:03 Error: [MissingActionException] Action EventsController::view() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:40:07 Error: [MissingActionException] Action EventsController::view() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:40:14 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:41:27 Error: [MissingActionException] Action EventsController::view() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:42:35 Error: [MissingActionException] Action EventsController::view() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:43:02 Error: [MissingActionException] Action EventsController::index() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:43:05 Error: [MissingActionException] Action EventsController::index() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:46:28 Error: [MissingActionException] Action EventsController::index() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:46:36 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:47:16 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:47:19 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:48:05 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:51:53 Error: [MissingActionException] Action EventsController::api_1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:51:58 Error: [MissingActionException] Action EventsController::view() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-04 17:52:21 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 17:52:25 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 17:53:25 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 17:53:43 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-04 17:53:48 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:38:05 Error: [MissingActionException] Action EventsController::api_index() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-05 16:38:10 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/index.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:38:34 Error: [MissingControllerException] Controller class Events,jsonController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-05 16:38:56 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:40:14 Error: [MissingActionException] Action SchedulesController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-05 16:41:58 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Schedules/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:42:27 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Schedules/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:43:24 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Schedules/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:44:29 Error: [MissingActionException] Action UsersController::4() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-05 16:44:33 Error: [MissingActionException] Action UsersController::4() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-05 16:44:49 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('4')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:44:53 Error: [NotFoundException] Invalid user
+#0 [internal function]: UsersController->view('4')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:45:40 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Users/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:45:52 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:46:06 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:46:10 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:46:14 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Users/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:46:29 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Users/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:46:54 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Users/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:48:49 Error: [MissingActionException] Action SeekersController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SeekersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-05 16:49:50 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Seekers/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SeekersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:50:23 Error: [MissingControllerException] Controller class SeekerSchedulesController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-05 16:55:35 Error: [MissingActionException] Action SeekerSchedulesController::1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SeekerSchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-05 16:55:54 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/SeekerSchedules/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SeekerSchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-05 16:56:46 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/SeekerSchedules/json/view.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SeekerSchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-08 13:55:50 Error: [MissingActionException] Action EventsController::api_index() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-08 13:55:56 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/index.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-08 13:57:30 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-08 15:03:29 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/json/add.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-08 15:17:50 Error: [MissingActionException] Action EventsController::add1() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-08 15:17:53 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/add.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-08 15:20:08 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-08 15:40:55 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/json/delete.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-08 15:55:10 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-08 15:55:18 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-08 15:57:09 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Schedules/json/index.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-08 16:17:30 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`padule`.`Events`, CONSTRAINT `fk_Events_Users1` FOREIGN KEY (`user_id`) REFERENCES `Users` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `pa...', Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `pa...')
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(1734): DboSource->create(Object(Event), Array, Array)
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SchedulesController.php(93): Model->save(Array)
+#5 [internal function]: SchedulesController->add()
+#6 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-08-08 16:18:23 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Schedules/json/add.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/JsonView.php(98): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): JsonView->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-10 08:55:09 Error: [MissingActionException] Action EventsController::api_index() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-10 09:04:37 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-10 09:04:49 Error: [MissingControllerException] Controller class SeekerScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-10 09:04:57 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`padule`.`JobSeekers`, CONSTRAINT `fk_JobSeekers_Events1` FOREIGN KEY (`event_id`) REFERENCES `Events` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `pa...', Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `pa...')
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(1734): DboSource->create(Object(JobSeeker), Array, Array)
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SeekerSchedulesController.php(44): Model->save(NULL)
+#5 [internal function]: SeekerSchedulesController->add()
+#6 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SeekerSchedulesController), Array)
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SeekerSchedulesController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-08-11 10:33:25 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`padule`.`Users`, CONSTRAINT `fk_Users_Companys` FOREIGN KEY (`company_id`) REFERENCES `Companys` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `pa...', Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `pa...')
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(1734): DboSource->create(Object(User), Array, Array)
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/UsersController.php(56): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-08-11 10:58:21 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`padule`.`Users`, CONSTRAINT `fk_Users_Companys` FOREIGN KEY (`company_id`) REFERENCES `Companys` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('INSERT INTO `pa...', Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(1007): DboSource->execute('INSERT INTO `pa...')
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(1734): DboSource->create(Object(User), Array, Array)
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/UsersController.php(56): Model->save(Array)
+#5 [internal function]: UsersController->add()
+#6 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#8 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-08-11 11:06:17 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-11 11:19:25 Error: [MissingViewException] View file "/Users/k.moromizato/Documents/workspace/PADULE/cake/app/View/Events/padule.ctp" is missing.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(EventsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-13 07:07:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Lock.seeker_id' in 'where clause'
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Schedul...', Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Schedul...', Array, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Schedul...', false)
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(2637): DboSource->read(Object(Schedule), Array)
+#5 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SchedulesController.php(36): Model->find('all', Array)
+#6 [internal function]: SchedulesController->index()
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#8 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-08-13 07:08:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Lock.job_seeker_id' in 'where clause'
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Schedul...', Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Schedul...', Array, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Schedul...', false)
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(2637): DboSource->read(Object(Schedule), Array)
+#5 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SchedulesController.php(36): Model->find('all', Array)
+#6 [internal function]: SchedulesController->index()
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#8 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-08-13 08:35:01 Error: [MissingControllerException] Controller class SeekerController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-13 08:35:04 Error: [MissingControllerException] Controller class SeekerController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-13 08:35:09 Error: Fatal Error (1): Call to a member function save() on a non-object in [/Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SeekersController.php, line 47]
+2013-08-13 08:35:09 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/k.moromi...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/k.moromi...', 47, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/k.moromi...', 47, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-13 08:38:31 Error: Fatal Error (1): Call to a member function save() on a non-object in [/Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SeekersController.php, line 47]
+2013-08-13 08:38:31 Error: [FatalErrorException] Call to a member function save() on a non-object
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/k.moromi...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/k.moromi...', 47, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/k.moromi...', 47, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 07:48:47 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 07:48:52 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 07:50:46 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 07:50:57 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 07:51:13 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 07:51:18 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 07:53:38 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 07:53:46 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 08:16:50 Error: [MissingActionException] Action SchedulesController::assets() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 08:16:50 Error: [MissingActionException] Action SchedulesController::assets() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 08:16:50 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-08-29 08:16:50 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 08:16:50 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-08-29 08:16:50 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 08:17:07 Error: [MissingActionException] Action SchedulesController::assets() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 08:17:07 Error: [MissingActionException] Action SchedulesController::assets() could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-08-29 08:17:07 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-08-29 08:17:07 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 08:17:07 Error: Fatal Error (1): Maximum function nesting level of '100' reached, aborting! in [/Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Network/CakeRequest.php, line 600]
+2013-08-29 08:17:07 Error: [FatalErrorException] Maximum function nesting level of '100' reached, aborting!
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Maximum functio...', '/Users/k.moromi...', 600)
+#1 [internal function]: ErrorHandler::handleError(1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Maximum functio...', '/Users/k.moromi...', 600, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 08:29:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Event.' in 'field list'
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(2637): DboSource->read(Object(Event), Array)
+#5 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(598): Model->find('first', Array)
+#6 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(788): DboSource->query('findByUrl', Array, Object(Event))
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SchedulesController.php(175): Model->__call('findByUrl', Array)
+#8 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SchedulesController.php(175): Event->findByUrl('first', Array)
+#9 [internal function]: SchedulesController->seeker()
+#10 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#11 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#13 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-08-29 08:29:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Event.' in 'field list'
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT DISTINCT...', Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT DISTINCT...', Array, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT DISTINCT...', false)
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(2637): DboSource->read(Object(Event), Array)
+#5 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(598): Model->find('first', Array)
+#6 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(788): DboSource->query('findByUrl', Array, Object(Event))
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SchedulesController.php(175): Model->__call('findByUrl', Array)
+#8 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SchedulesController.php(175): Event->findByUrl('first', Array)
+#9 [internal function]: SchedulesController->seeker()
+#10 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#11 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#13 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-08-29 08:29:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Event`....', Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Event`....', Array, Array)
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Event`....', false)
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(2637): DboSource->read(Object(Event), Array)
+#5 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Datasource/DboSource.php(598): Model->find('first', Array)
+#6 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Model/Model.php(788): DboSource->query('findByUrl', Array, Object(Event))
+#7 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SchedulesController.php(175): Model->__call('findByUrl', Array)
+#8 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/Controller/SchedulesController.php(175): Event->findByUrl(Array)
+#9 [internal function]: SchedulesController->seeker()
+#10 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#11 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#12 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#13 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2013-08-29 08:30:03 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker()
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:30:46 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('11db6a2bc59cbe2')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:30:50 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('11db6a2bc59cbe2')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:31:18 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('11db6a2bc59cbe2')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:32:11 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('11db6a2bc59cbe2')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:36:19 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 08:36:40 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('jquery.min')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:46:59 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('jquery.min')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:47:33 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('jquery.min')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:53:56 Error: [MissingControllerException] Controller class ScheduleController could not be found.
+#0 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 08:54:10 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('jquery.min')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:54:46 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('jquery.min')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-08-29 08:56:17 Error: [NotFoundException] 不正なURLです。
+#0 [internal function]: SchedulesController->seeker('jquery.min')
+#1 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(SchedulesController), Array)
+#2 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/k.moromizato/Documents/workspace/PADULE/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(SchedulesController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/k.moromizato/Documents/workspace/PADULE/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

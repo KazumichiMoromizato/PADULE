@@ -19,10 +19,65 @@ var $uses = array('Schedule','Lock','Event','User','JobSeeker');
  * @return void
  */
 	public function index() {
+        $eventId = $this->request->query['event_id'];
+        if(isset($this->request->query['seeker_id'])) {
+            $seekerId = $this->request->query['seeker_id'];
+        }
 
-		$group = $this->Event->find('all',array('conditions' => array('Event.user_id' => $this->Auth->user('id')),'order' => 'Event.id desc'));
+        $params = array(
+            'conditions' => array(
+                'Schedule.event_id' => $eventId,
 
-		$this->set('group',$group);
+            ),
+            'recursive' =>2
+        );
+        if(!empty($seekerId)) {
+            $this->Schedule->bindModel(array('hasMany'=>array('Lock'=>
+                array(
+                    'conditions' => array('Lock.job_seeker_id' => $seekerId),
+                    )
+                )
+            ));
+        } else {
+            $this->Schedule->bindModel(array('hasMany'=>array('Lock'=>
+                array(
+                    )
+                )
+            ));
+        }
+
+        $this->Schedule->Lock->bindModel(array('belongsTo'=>array('JobSeeker')));
+
+        $schedules = $this->Schedule->find('all',$params);
+        $responseText = array();
+        foreach ($schedules as $schedule) {
+
+            $seekerSchedukes = array();
+            foreach ($schedule['Lock'] as $lock) {
+                $seekerSchedukes[] = array(
+                    'id' => $lock['id'],
+                    'type' => $lock['type'],
+                    'seeker' => array(
+                        'id' => $lock['JobSeeker']['id'],
+                        'event_id' => $lock['JobSeeker']['event_id'],
+                        'name' => $lock['JobSeeker']['username'],
+                        'mail' => $lock['JobSeeker']['mail'],
+                        'comment' => $lock['JobSeeker']['comment'],
+                    ),
+                );
+            }
+            $responseText [] = array(
+                'id' => $schedule['Schedule']['id'],
+                'event_id' => $schedule['Schedule']['event_id'],
+                'start_time' => $schedule['Schedule']['start_datetime'],
+                'end_time' => $schedule['Schedule']['end_datetime'],
+                'seeker_schedules' =>$seekerSchedukes,
+            );
+        }
+
+        $this->responseText = $responseText;
+        $this->render('json');
+
 	}
 
 /**
@@ -32,27 +87,7 @@ var $uses = array('Schedule','Lock','Event','User','JobSeeker');
  * @param string $id
  * @return void
  */
-	public function view($group_id = null) {
-		if(empty($this->login)) {
-			$this->redirect('/');
-		}
-		$group = $this->Group->find('first',array('conditions'=>array('Group.id'=>$group_id),'recursive' => 2));
-		$i = 0;
-$days = array();
-$times = array();
-		foreach ($group['Schedule'] as $key => $value) {
-			$splitStart = split(' ', $group['Schedule'][$i]['start_datetime']);
-			$splitEnd = split(' ', $group['Schedule'][$i]['end_datetime']);
-
-			$group['Schedule'][$i]['day'] = $splitStart[0];
-			$days[$splitStart[0]] = "IN";
-			$group['Schedule'][$i]['time'] = $splitStart[1].'〜'.$splitEnd[1];
-			$times[$splitStart[1].'〜'.$splitEnd[1]] = "IN";
-
-
-			$i++;
-		}
-		$this->set(compact('group','days','times'));
+	public function view($id = null) {
 
 	}
 
@@ -62,18 +97,46 @@ $times = array();
  * @return void
  */
 	public function add() {
-		if ($this->request->is('post')) {
-			pr($this->data);
-			exit;
-			$this->Schedule->create();
-			if ($this->Schedule->save($this->request->data)) {
-				$this->flash(__('Schedule saved.'), array('action' => 'index'));
-			} else {
-			}
-		}
-		$groups = $this->Schedule->Group->find('list');
-		$this->set(compact('groups'));
+
+        $eventId = $this->request->query['event_id'];
+
+        $start_datetime = $this->request->data['start_time'];
+        $end_datetime = $this->request->data['end_time'];
+
+        $savedata = array(
+            'event_id' => $eventId,
+            'job_seeker_id' => 0,
+            'start_datetime' => $start_datetime,
+            'end_datetime' => $end_datetime
+        );
+
+        if($this->Schedule->save($savedata)) {
+            $this->responseText = array(
+                'id' => $this->Schedule->getLastInsertID()
+            );
+            $this->env = true;
+        } else {
+            $this->env = false;
+        }
+
+        $this->render('json');
 	}
+
+    public function delete($id) {
+
+        $this->env = false;
+        if(!$this->Lock->findByScheduleId($id)) {
+            if($this->request->is('delete')) {
+                $this->Schedule->id = $id;
+                if($this->Schedule->delete()){
+                    $this->env = true;
+                }
+            }
+        }
+
+        $this->render('json');
+
+    }
 
 	public function newpadule() {
 		if ($this->request->is('post')) {
@@ -106,4 +169,13 @@ $times = array();
 	public function added() {
 
 	}
+
+    public function seeker($param = '') {
+
+        if(!$event = $this->Event->find('first',array('conditions' => array('url' => $this->here)))) {
+            throw new NotFoundException("不正なURLです。");
+        }
+
+        $this->set('eventId',$event['Event']['id']);
+    }
 }

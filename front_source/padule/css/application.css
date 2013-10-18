@@ -1,0 +1,160 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+#wrap {
+    height: auto !important;
+    margin: 0 auto -50px;
+    min-height: 100%;
+}
+
+#wrap .container {
+    height: 100%;
+}
+
+#footer {
+    background-color: #bdc3c7;
+    height: 20px;
+    padding: 15px;
+}
+
+#footer .credit {
+    margin: 20px 40px;
+}
+
+#brand {
+    font-size: 30px;
+}
+
+/* Login */
+.form-signin {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    margin: 120px auto 20px;
+    max-width: 300px;
+    padding: 19px 29px 29px;
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    /*font-size: 12px;*/
+    /*height: auto;*/
+    margin-bottom: 15px;
+    padding: 0px 9px;
+    height: 40px;
+}
+
+.form-signin img {
+    display: block;
+    margin: 0 auto;
+}
+
+#login-btn {
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+
+/* My page */
+#mypage-container {
+    padding-top: 50px;
+    height: 100%;
+    background-color: #BDC3C7;
+}
+
+#mypage-container .container-fluid, #mypage-container .container-fluid .row-fluid {
+    height: 100%;
+}
+
+#side-bar {
+    height: 100%;
+    background-color: #ECF0F1;
+}
+
+#side-bar li a {
+    text-decoration: none;
+    color: #2C3E50;
+    border-top: 1px solid #BDC3C7;
+    height: 40px;
+}
+
+#side-bar li.active a {
+    background-color: #95A5A6;
+    color: #ECF0F1;
+}
+
+#edit-area {
+    height: 100%;
+    background-color: #ECF0F1;
+    padding: 0 24px;
+}
+
+#title-area, #date-area {
+    padding: 10px 0;
+    margin-bottom: 5px;
+}
+
+#schedule-area {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#schedule-area table {
+    background-color: #FEFEFE;
+}
+
+#schedule-area table th, #schedule-area table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#schedule-area tr.schedule-comment {
+    border-top: 1px dashed #95A5A6;
+}
+
+#confirm-btn {
+    margin-left: 10px;
+}
+
+
+/* 申請画面 */
+#apply-page {
+    padding-top: 60px;
+}
+
+#apply-page #brand {
+    font-size: 20px;
+}
+
+#apply-form {
+    /*margin: 0 10px;*/
+    /*width: 90%;*/
+}
+
+.confirmed td {
+    /*background-color: #BDC3C7;*/
+}
+#side-bar > ul > li > a:hover {
+    background-color: #bdc3c7;
+}
+
+.btn.sts_ng {
+    background-color: #FFFFFF;
+    color: #34495E;
+}
+
+#date-area input {
+    padding: 3px;
+    margin-right: 4px;
+}
+
+#title span {
+    font-size: 24px;
+    font-weight: bold;
+}

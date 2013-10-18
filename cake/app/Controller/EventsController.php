@@ -9,7 +9,7 @@ class EventsController extends AppController {
 
     public $uses = array('Event','JobSeeker');
 
-    public function api_index() {
+    public function index() {
 
         $userId = $this->Auth->user('id');
         $params = array(
@@ -19,147 +19,116 @@ class EventsController extends AppController {
             'recursive' =>0
         );
         $events = $this->Event->find('all',$params);
-        $env['success'] = true;
 
-        $this->set(compact('events','env'));
+        $responseText = array();
+        foreach ($events as $event) {
+            $responseText[] = array(
+                'id' => $event['Event']['id'],
+                'title' => $event['Event']['title'],
+                'url' => $event['Event']['url'],
+                'text' => $event['Event']['text'],
+                'enabled' => $event['Event']['enabled'],
+            );
+        }
+
+        $this->responseText = $responseText;
+
+        $this->render('json');
     }
 
-    public function api_view($eventId) {
+    public function view($eventId) {
 
-        $userId = $this->Auth->user('id');
-        $this->Event->bindModel(
-            array(
-                'hasMany' => array(
-                    'JobSeeker' => array(
-                        'className' => 'JobSeeker',
-                        'foreignKey' => 'event_id',
-                        'dependent' => false,
-                        'conditions' => '',
-                        'fields' => '',
-                        'order' => '',
-                        'limit' => '',
-                        'offset' => '',
-                        'exclusive' => '',
-                        'finderQuery' => '',
-                        'counterQuery' => ''
-                    ),
-                    'Schedule' => array(
-                        'className' => 'Schedule',
-                        'foreignKey' => 'event_id',
-                        'dependent' => false,
-                        'conditions' => '',
-                        'fields' => '',
-                        'order' => '',
-                        'limit' => '',
-                        'offset' => '',
-                        'exclusive' => '',
-                        'finderQuery' => '',
-                        'counterQuery' => ''
-                    )
-                )
-            )
-        );
+        $env = true;
 
-        $this->JobSeeker->bindModel(
-            array(
-                'hasMany' => array(
-                    'Lock' => array(
-                        'className' => 'Lock',
-                        'foreignKey' => 'job_seeker_id',
-                        'dependent' => false,
-                        'conditions' => '',
-                        'fields' => '',
-                        'order' => '',
-                        'limit' => '',
-                        'offset' => '',
-                        'exclusive' => '',
-                        'finderQuery' => '',
-                        'counterQuery' => ''
-                    )
-                )
-            )
-        );
         $event = array();
         $params = array(
             'conditions' => array(
-                'Event.user_id' => $userId,
                 'Event.id' => $eventId
             ),
-            'recursive' =>3
         );
-        $event = $this->Event->find('first',$params);
-        $env['success'] = true;
+        $event= $this->Event->find('first',$params);
+        unset($event['Event']['user_id']);
+        unset($event['Event']['created']);
+        unset($event['Event']['modified']);
 
-        $this->set(compact('event','env'));
+        $this->responseText= $event['Event'];
+
+        $this->render('json');
     }
 
-    public function api_new() {
+    public function add() {
 
         $title = $this->request->data['title'];
-        $datetime = $this->request->data['datetime'];
         $text = $this->request->data['text'];
 
         $rand =  md5(uniqid(rand(), true));
-        $url = '/locks/add/'.$rand;
+        $url = '/schedules/seeker/'.$rand;
 
         $savedata = array(
             'user_id' => $this->Auth->user('id'),
             'title' => $title,
-            'datetime' => $datetime,
             'text' => $text,
             'url' => $url
         );
 
         if($this->Event->save($savedata)) {
-            $env['success'] = true;
-        } else {
-            $env['success'] = false;
-        }
-
-        $this->set(compact('env'));
-
-    }
-
-    public function api_edit() {
-
-        $json = '
-        [
-    {
-        "id": 1, 
-        "schedule_id": 1
-    }, 
-    {
-        "id": 2, 
-        "schedule_id": 1
-    }
-]
-';
-$posts = json_decode($json, true);
-pr($posts);
-
-        foreach ($posts as $key => $value) {
-            $savedata = array(
-                'id' => $value['schedule_id'],
-                'job_seeker_id' => $value['id'],
+            $this->responseText = array(
+                'id' => $this->Event->getLastInsertID()
             );
-        }
-        $savedata = array(
-            'user_id' => $this->Auth->user('id'),
-            'title' => $title,
-            'datetime' => $datetime,
-            'text' => $text,
-            'url' => $url
-        );
-
-        if($this->Event->save($savedata)) {
-            $env['success'] = true;
+            $this->env = true;
         } else {
-            $env['success'] = false;
+            $this->env = false;
         }
 
-        $this->set(compact('env'));
+        $this->render('json');
+
     }
 
+    public function edit($eventId) {
+        $env = true;
+
+        if($this->request->is('post') || $this->request->is('put')) {
+            $this->Event->id = $eventId;
+            if($this->Event->save($this->request->data)){
+                $this->env = true;
+            } else{
+                $this->env = false;
+            }
+        }
+        //$userId = $this->Auth->user('id');
+
+        $event = array();
+        $params = array(
+            'conditions' => array(
+         //       'Event.user_id' => $userId,
+                'Event.id' => $eventId
+            ),
+        );
+        $event= $this->Event->find('first',$params);
+        unset($event['Event']['user_id']);
+        unset($event['Event']['created']);
+        unset($event['Event']['modified']);
+
+        $this->responseText= $event['Event'];
+
+        $this->render('json');
+
+    }
+
+    public function delete($eventId) {
+
+        if($this->request->is('delete')) {
+            $this->Event->id = $eventId;
+            if($this->Event->delete()){
+                $this->env = true;
+            } else{
+                $this->env = false;
+            }
+        }
+
+        $this->render('json');
+
+    }
     public function padule() {
 
     }
